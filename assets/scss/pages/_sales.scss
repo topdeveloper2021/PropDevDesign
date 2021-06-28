@@ -1,0 +1,138 @@
+#actions {
+  span.custom-option.double_half_select {
+      width: 82px;
+  }
+  span.custom-option.double_half_select.selected {
+    width: 82px;
+  }
+  .xb-btn {
+    width: 225px;
+  }
+  .pt-20 {
+    padding-top: 20px;
+  }
+  .pricing_schedule {
+    ul {
+      .new_facility_btn {
+        width: 223px;
+      }
+    }
+
+  }
+  .black_placeholder {
+    input::placeholder {
+      color: #000C33;
+    }
+  }
+  .mb-160 {
+    margin-bottom: 160px;
+  }
+  .specification_popup, .electric_mamagement_popup, .gas_mamagement_popup, .water_mamagement_popup, .customer_care_popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 378px;
+    height: 100vh;
+    background: #ffffff;
+    overflow: auto;
+    z-index: 1200;
+    transition: all ease 0.5s;
+    padding: 20px;
+
+  }
+
+  .custom_th_table {
+    table {
+      thead {
+        tr {
+          th:first-child {
+            width: 120px;
+          }
+        }
+      }
+    }
+  }
+
+  .color_table {
+    table {
+      tr:nth-child(2n) {
+        td:nth-child(2) {
+          color: #FA5E0C;
+        }
+      }
+    }
+    thead {
+      tr {
+        th {
+          font-family: Karla;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 24px;
+          color: #000C33;
+        }
+        th:first-child {
+          width: 120px;
+        }
+      }
+    }
+  }
+
+   td {
+    font-family: Karla;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+  .right_flex {
+    justify-content: flex-end;
+  }
+  .orange_color {
+    cursor: pointer;
+  }
+}
+.hidden_electric_management_popup {
+  #actions {
+    .electric_mamagement_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+.hidden_water_management_popup {
+  #actions {
+    .water_mamagement_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+.hidden_gas_management_popup {
+  #actions {
+    .gas_mamagement_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+.hidden_customer_care_popup {
+  #actions {
+     .customer_care_popup {
+       transform: translateX(378px);
+     }
+  }
+}
+.hidden_specification_popup {
+  #actions {
+    .specification_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+@media (max-width: 378px) {
+  #actions {
+    .electric_mamagement_popup, .water_mamagement_popup, .gas_mamagement_popup {
+      padding-left: 30px;
+    }
+  }
+
+}

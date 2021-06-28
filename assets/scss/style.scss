@@ -1,0 +1,97 @@
+/*! =========================================================
+* =========================================================
+*
+ *
+ *                       _oo0oo_
+ *                      o8888888o
+ *                      88" . "88
+ *                      (| -_- |)
+ *                      0\  =  /0
+ *                    ___/`---'\___
+ *                  .' \|     |// '.
+ *                 / \|||  :  |||// \
+ *                / _||||| -:- |||||- \
+ *               |   | \\  -  /// |   |
+ *               | \_|  ''\---/''  |_/ |
+ *               \  .-\__  '-'  ___/-. /
+ *             ___'. .'  /--.--\  `. .'___
+ *          ."" '<  `.___\_<|>_/___.' >' "".
+ *         | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+ *         \  \ `_.   \_ __\ /__ _/   .-` /  /
+ *     =====`-.____`.___ \_____/___.-`___.-'=====
+ *                       `=---='
+ *
+ *     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ *
+ *               Buddha Bless:  "No Bugs"
+ *
+ * ========================================================= */
+
+
+
+
+//variables and mixins
+@import "material/variables";
+@import "material/mixins";
+@import "material/shadows";
+
+//plugin css
+@import "material/plugins/plugin-nouislider";
+@import "material/plugins/animate";
+@import "material/plugins/sweetalert2";
+@import "material/plugins/datatables.net";
+@import "material/plugins/jquery.jvectormap";
+@import "material/plugins/plugin-datetime-picker";
+@import "material/plugins/fullcalendar";
+@import "material/plugins/wizard-card";
+@import "material/plugins/chartist";
+@import "material/plugins/select-bootstrap";
+@import "material/plugins/perfect-scrollbar";
+
+
+// Core CSS
+@import "material/typography";
+@import "material/sidebar-and-main-panel";
+@import "material/buttons";
+@import "material/misc";
+@import "material/inputs";
+@import "material/fileupload";
+@import "material/alerts";
+@import "material/tables";
+@import "material/forms";
+@import "material/checkboxes";
+@import "material/radios";
+@import "material/progress";
+@import "material/togglebutton";
+@import "material/pages";
+@import "material/tags";
+@import "material/timeline";
+@import "material/ripples";
+@import "material/panels";
+@import "material/pagination";
+@import "material/labels";
+@import "material/pills";
+@import "material/dialogs";
+@import "material/navbars";
+@import "material/popups";
+@import "material/footers";
+
+// Fancy Stuff
+@import "material/dropdown";
+@import "material/cards";
+@import "material/tabs";
+@import "material/rtl";
+
+@import "material/responsive";
+
+// Pages
+@import "pages/home.scss";
+@import "pages/actions.scss";
+@import "pages/legals.scss";
+@import "pages/fundings.scss";
+@import "pages/mornitors.scss";
+@import "pages/applications.scss";
+@import "pages/management.scss";
+@import "pages/meetings.scss";
+@import "pages/sales.scss";
+@import "pages/commercial.scss";

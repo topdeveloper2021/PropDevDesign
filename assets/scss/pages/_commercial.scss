@@ -1,0 +1,86 @@
+#actions {
+  .mt-10_ {
+    margin-top: -10px;
+  }
+
+  .pl-32 {
+    padding-left: 32px;
+  }
+
+  .white_border {
+    .table-responsive {
+      .table {
+        tr{
+          border: 1px solid rgba(255, 255, 255, 1);
+          td, th {
+            border-color: rgba(255, 255, 255, 1);
+          }
+        }
+
+      }
+
+    }
+  }
+
+  .commercial_variations_popup {
+    .blue_radio_btn {
+      .radio-box {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: #000C33;
+      }
+    }
+  }
+
+  .commercial_summary_popup, .commercial_programme_popup, .commercial_contractor_popup, .commercial_variations_popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 378px;
+    height: 100vh;
+    z-index: 2000;
+    overflow: auto;
+    transition: all ease 0.5s;
+    padding-left: 20px;
+    background-color: white;
+
+    .save_btn {
+      margin-top: 20px;
+    }
+  }
+}
+
+.hidden_commercial_summary_popup {
+  #actions {
+    .commercial_summary_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+
+.hidden_commercial_programme_popup {
+  #actions {
+    .commercial_programme_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+
+.hidden_commercial_contractor_popup {
+  #actions {
+    .commercial_contractor_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+
+.hidden_commercial_variations_popup {
+  #actions {
+    .commercial_variations_popup {
+      transform: translateX(378px);
+    }
+  }
+}

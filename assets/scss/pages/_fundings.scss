@@ -1,0 +1,581 @@
+.main-panel::-webkit-scrollbar{
+  //display: none;
+  //visibility: hidden;
+}
+.wrapper::-webkit-scrollbar {
+  //display: none;
+  //visibility: hidden;
+}
+.no_scroll::-webkit-scrollbar {
+  display: none;
+  visibility: hidden;
+}
+body::-webkit-scrollbar {
+  //display: none;
+  //visibility: hidden;
+}
+.hidden_bank_valuation {
+  #actions {
+    .bank_detail_popup {
+      transform: translateX(100%);
+    }
+  }
+}
+
+.hidden-popup {
+  #actions {
+    .file-detail-popup {
+      transform: translateX(320px);
+    }
+  }
+}
+
+.hidden_party_popup {
+  #actions {
+    .party_detail_popup {
+      transform: translateX(100%);
+    }
+  }
+}
+
+.hidden_DMA_popup {
+  #actions {
+    .DMA_party_popup {
+      transform: translateX(100%);
+    }
+  }
+}
+
+.hidden_contact_popup {
+  #actions {
+    .contact_detail_popup {
+      transform: translateX(100%);
+    }
+  }
+}
+
+.hidden_facility_popup {
+  #actions {
+    .facility_detail_popup {
+      transform: translateX(100%);
+    }
+  }
+}
+
+.hidden_convenants_popup {
+  #actions {
+    .banking_convenants_popup {
+      transform: translateX(100%);
+    }
+  }
+}
+
+.hidden_precedents_popup {
+  #actions {
+    .conditions_precedents_popup {
+      transform: translateX(100%);
+    }
+  }
+}
+
+.hidden_precedents_detail_popup {
+  #actions {
+    .precedent_detail_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+.hidden_create_fund_popup {
+  #actions {
+    .create_funder_popup {
+      transform: translateX(427px);
+    }
+  }
+}
+.hidden_edit_fund_popup {
+  #actions {
+    .edit_funder_popup {
+      transform: translateX(427px);
+    }
+  }
+}
+.hidden_delete_fund_popup {
+  #actions {
+    .delete_funder_popup {
+      transform: translateX(427px);
+    }
+  }
+}
+.hidden_new_facility_popup {
+  #actions {
+    .create_new_facility_popup {
+      transform: translateX(427px);
+    }
+  }
+}
+.hidden_create_valuation_popup {
+  #actions {
+    .create_valuation_popup {
+      transform: translateX(427px);
+    }
+  }
+}
+.hidden_edit_valuation_popup {
+  #actions {
+    .edit_valuation_popup {
+      transform: translateX(427px);
+    }
+  }
+}
+.hidden_delete_valuation_popup {
+  #actions {
+    .delete_valuation_popup {
+      transform: translateX(427px);
+    }
+  }
+}
+.hidden_create_party_popup {
+  #actions {
+    .create_party_popup {
+      transform: translateX(427px);
+    }
+  }
+}
+.hidden_edit_party_popup {
+  #actions {
+    .edit_party_popup {
+      transform: translateX(427px);
+    }
+  }
+}
+.hidden_delete_party_popup {
+  #actions {
+    .delete_party_popup {
+      transform: translateX(427px);
+    }
+  }
+}
+.hidden_create_new_valuation_popup {
+  #actions {
+    .create_new_valuation_popup {
+      transform: translateX(427px);
+    }
+  }
+}
+#actions {
+  .pr-142 {
+    padding-right: 142px;
+  }
+  .white_bottom_active {
+    .nav.nav-pills {
+      li.active {
+        border-bottom: 2px solid #ffffff;
+      }
+      li {
+        border-bottom: 2px solid rgba(82, 0, 255, 0.0);
+      }
+    }
+  }
+   .text_edit {
+     .form-control {
+       width: 330px;
+       height: 151px;
+     }
+   }
+  .attach_file_edit {
+    cursor: pointer;
+  }
+  .precedent_detail_popup {
+    label {
+      color: #000C33;
+    }
+  }
+  .create_new_facility_popup, .create_funder_popup, .edit_funder_popup, .delete_funder_popup, .create_valuation_popup, .edit_valuation_popup, .delete_valuation_popup,
+  .create_party_popup, .edit_party_popup, .delete_party_popup, .create_new_valuation_popup {
+    position: fixed;
+    width: 427px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background: #ffffff;
+    overflow: auto;
+    padding: 0px 51.1px 0px 50.5px;
+    z-index: 1200;
+    transition: all ease 0.5s;
+    label {
+      color: #000C33;
+    }
+    .material-icons {
+      font-size: 30px;
+      background: transparent;
+      border: none;
+    }
+    .delete_btn_group {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      a {
+        text-decoration: underline;
+      }
+    }
+    .save_btn {
+      width: 189px;
+      height: 64px;
+      margin-top: auto;
+      margin-bottom:auto;
+      margin-left: 0px;
+    }
+  }
+
+  .tab_with_btn {
+    ul {
+      display: flex;
+      align-items: center;
+
+      .add_directory {
+        width: 195px;
+        margin-left: 65px;
+
+      }
+    }
+  }
+
+  .directory_button_group {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .add_directory {
+      width: 95px;
+    }
+  }
+
+  .precedent_detail_popup ::placeholder {
+    color: #002143;
+    opacity: 1;
+  }
+
+  .precedent_detail_popup {
+    position: fixed;
+    height: 100vh;
+    width: 378px;
+    top: 0;
+    right: 0;
+    background: #FFFFFF;
+    padding: 15px 25px;
+    transition: all ease 0.5s;
+    overflow: auto;
+    z-index: 1500;
+
+    .save_btn {
+      width: 327px;
+      height: 64px;
+    }
+  }
+
+  .pagination {
+    background-color: #424b68;
+    border-radius: 8px;
+    padding: 0 20px;
+
+    .bootstrap-select {
+      width: 50px;
+      margin: 0 10px;
+
+      .filter-option {
+        line-height: 10px;
+      }
+    }
+  }
+
+  .xs-btn {
+    width: 95px;
+  }
+
+  .double_halfinput {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+
+  .pl-50 {
+    padding-left: 50px;
+  }
+
+  .facility_detail_popup {
+    .table-responsive {
+      .add_directory {
+        width: 120px;
+      }
+    }
+
+    .add_directory {
+      width: 95px;
+    }
+  }
+
+  .conditions_precedents_popup {
+    table {
+      border: 1px solid rgba(255, 255, 255, 0.15);
+
+      thead {
+        th {
+          color: #000C33;
+          font-size: 15px;
+          font-weight: 700;
+        }
+      }
+    }
+
+
+  }
+
+  .party_detail_popup, .DMA_party_popup, .contact_detail_popup, .facility_detail_popup, .banking_convenants_popup, .conditions_precedents_popup {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background: #000C33;
+    padding: 15px 15px;
+    transition: all ease 0.5s;
+    overflow: auto;
+    z-index: 1200;
+
+    .text_edit {
+      .form-control{
+        height: 211px;
+        width: 740px;
+        border-radius: 4px;
+      }
+
+
+    }
+  }
+
+  .dark_back {
+    .attach_file_edit {
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+  }
+
+  #overview_description, #valuation_description2 {
+    .description_close {
+      .material-icons {
+        color: #000C33;
+      }
+    }
+
+    .mark_section {
+      .material-icons {
+        color: #000C33;
+      }
+    }
+  }
+
+  #partner_description, #valuation_description1, #venture_description1, #venture_description2, #management_description {
+    .description_close {
+      .material-icons {
+        color: orange;
+      }
+    }
+
+    .mark_section {
+      .material-icons {
+        color: blue;
+      }
+    }
+  }
+
+  #venture_description2 {
+    .documents_description {
+      width: 445px;
+      height: 596px;
+    }
+  }
+
+  .warn_description {
+    width: 445px;
+    height: 130px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 5px;
+
+    .description_close {
+      padding: 5px 20px;
+      float: right;
+
+      .material-icons {
+        cursor: pointer;
+        color: orange;
+      }
+    }
+
+    .doc_description_body {
+      display: flex;
+      flex-flow: row;
+      justify-content: center;
+      align-items: center;
+
+      .mark_section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        //padding-bottom: 35px;
+        width: 10%;
+        height: 100%;
+
+        .material-icons {
+          background: blue;
+          background: white;
+        }
+      }
+
+      .doc_description {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        width: 90%;
+        height: 100%;
+        padding: 10px 10px;
+        color: #000C33;
+      }
+    }
+  }
+
+  #select_option_btn {
+    width: 248px;
+    height: 31px;
+    margin-top: 26px;
+  }
+
+  .white_ground {
+    background: white;
+  }
+
+  .mb-112 {
+    margin-bottom: 112px;
+  }
+
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+
+  .sm-btn {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 157px;
+    height: 31px;
+  }
+
+  .mb-70 {
+    //width: 375.71px;
+    margin-bottom: 70px;
+  }
+
+  .mt-70 {
+    margin-top: 70px;
+  }
+
+  .select_option_popup {
+    position: fixed;
+    height: 100vh;
+    width: 429px;
+    background: #FFFFFF;
+    top: 0;
+    right: 0;
+    padding: 48px 17px;
+    transition: all ease 0.5s;
+    overflow: auto;
+    z-index: 1200;
+    #form-main {
+      margin-left: 20px;
+      .save_btn {
+        width: 347px;
+        height: 64px;
+      }
+    }
+
+  }
+
+  .bank_detail_popup {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background: #000C33;
+    padding: 15px 15px;
+    transition: all ease 0.5s;
+    overflow: auto;
+    z-index: 1200;
+  }
+}
+@media (max-width: 768px) {
+  #actions {
+    .create_funder_popup, .edit_funder_popup, .delete_funder_popup, .create_valuation_popup, .edit_valuation_popup, .delete_valuation_popup,
+    .create_party_popup, .edit_party_popup, .delete_party_popup {
+      padding-left: 80px;
+    }
+    .party_detail_popup, .DMA_party_popup, .contact_detail_popup, .facility_detail_popup, .banking_convenants_popup, .conditions_precedents_popup{
+      .ml-40 {
+        margin-left: -15px;
+      }
+    }
+    .facility_detail_popup {
+      .pl-50 {
+        padding-left: 0px;
+      }
+      .col-md-12 {
+        padding-left: 0px;
+        .tab-content {
+          padding-left: 30px;
+          .col-md-4 {
+            padding-left: 0px;
+            .half-width {
+              width: 150px;
+            }
+          }
+        }
+      }
+    }
+    .banking_convenants_popup {
+      .ml-20 {
+        margin-left: 0px;
+      }
+      .double_halfinput {
+        flex-flow: column;
+      }
+    }
+    .bank_detail_popup {
+      padding-left: 13px;
+      .ml-40 {
+        margin-left: 0px;
+      }
+      .col-md-12 {
+        padding-left: 0px;
+      }
+    }
+    .party_detail_popup {
+      textarea {
+        width:327px;
+      }
+    }
+    .select_option_popup {
+      max-width: 370px ;
+      #form-main {
+        margin-left: 15px;
+        .save_btn {
+          max-width: 300px;
+        }
+      }
+    }
+  }
+}

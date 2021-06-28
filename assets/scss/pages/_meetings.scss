@@ -1,0 +1,56 @@
+#actions {
+  .ms-btn {
+    min-width: 170px;
+  }
+  .download_orange_btn {
+    width: 374px;
+    height: 42px;
+    color: #FA5E0C;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+  }
+  .popup-title {
+    font-family: Karla;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000C33;
+    margin-bottom: 40px;
+  }
+  .meeting_management_popup, .marketing_material_popup {
+    position: fixed;
+    height: 100vh;
+    width: 378px;
+    top: 0;
+    right: 0;
+    transition: all ease 0.05s;
+    z-index: 1200;
+    background: #FFFFFF;
+    overflow: auto;
+    padding: 20px;
+    .save_btn {
+      width: 327px;
+      height: 64px;
+    }
+    .custom_datefield {
+      .calendar_input_group {
+        input::placeholder {
+          color: #000c33;
+        }
+      }
+    }
+  }
+}
+.hidden_meeting_management_popup {
+  #actions {
+    .meeting_management_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+.hidden_marketing_material_popup {
+  #actions {
+    .marketing_material_popup {
+      transform: translateX(378px);
+    }
+  }
+}

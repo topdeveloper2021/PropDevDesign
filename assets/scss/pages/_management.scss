@@ -1,0 +1,369 @@
+#actions {
+  .upload_file_btn {
+    width: 125px;
+  }
+  .ldi_provider_popup {
+    #form-main {
+      .calendar_input_group {
+        input::placeholder {
+          color: #000C33;
+        }
+
+      }
+
+    }
+  }
+  #form-main {
+    .table-responsive {
+      table {
+        tbody {
+          tr {
+            color: white;
+          }
+        }
+         tr{
+           .record_bar {
+             width: 30px;
+           }
+         }
+      }
+    }
+    h2 {
+      margin-bottom: 10px;
+    }
+  }
+  .pink_text {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF00E5;
+  }
+  .custom_bar {
+    width: 328px;
+    height: 0px;
+    border: 1px solid #737373;
+    //transform: rotate(90deg);
+  }
+  .form_sub_title {
+    width: 600px;
+  }
+  .ml-10 {
+    margin-left: 10px;
+  }
+  .health_text_area {
+    height: 288px;
+    width: 325px;
+
+  }
+  .bold_weight {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .col_flex {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .normal_button_group {
+    h3 {
+      font-weight: normal;
+    }
+
+    .material-icons {
+      color: white;
+    }
+  }
+
+  .normal_font_label {
+    label {
+      font-weight: normal;
+    }
+  }
+  .choose_utility_popup {
+      padding-left: 15px;
+      .blue_radio_btn {
+        .radio-box {
+          padding-left: 28px;
+          color: #000C33;
+        }
+      }
+  }
+  .uploadfile_popup, .insurance_policy_popup, .choose_utility_popup, .utility_upload_file_popup, .ldi_provider_popup,
+  .plot_manage_popup, .section_agreements_popup{
+    .save_btn {
+      width: 322px;
+      height: 64px;
+    }
+    position: fixed;
+    height: 100vh;
+    width: 378px;
+    top: 0;
+    right: 0;
+    background: white;
+    padding: 35px 25px;
+    transition: all ease 0.5s;
+    overflow: auto;
+    z-index: 15;
+
+    h2 {
+      width: 300px;
+    }
+
+    .half-width {
+      width: 50%;
+    }
+
+    input, textarea {
+      max-width: 327px;
+    }
+
+    select {
+      max-width: 327px;
+      font-family: Karla;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000C33;
+      opacity: 1;
+      //appearance: auto;
+      padding: 0 10px;
+
+    }
+
+    span {
+      font-family: Karla;
+    }
+
+    .close-popup {
+      color: $black-color;
+    }
+
+    .popup-title {
+      font-size: 22px;
+      font-weight: bold;
+      color: $black-color;
+      margin-bottom: 40px;
+    }
+
+    .attachbtn_text {
+      position: static;
+      width: 115px;
+      height: 21px;
+      left: calc(50% - 115px / 2 + 8px);
+      top: calc(50% - 21px / 2);
+      font-family: Karla;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    .attachments {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+      font-weight: 400;
+
+      h5 {
+        font-weight: 500;
+      }
+
+      .attach-file {
+        color: #FA5E0C;
+        text-decoration: underline;
+        margin-bottom: 5px;
+      }
+
+      .attach-date {
+        color: $black-color;
+        margin-bottom: 5px;
+      }
+
+      .attach-delete {
+        color: $black-color;
+        text-decoration: underline;
+        margin-bottom: 5px;
+        border: none;
+        background-color: transparent;
+        width: fit-content;
+      }
+
+      button.upload-file {
+        width: 125px;
+        padding: 8px 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Karla;
+        background: #5200ff;
+        border-radius: 4px;
+        text-transform: none;
+
+        i {
+          margin-right: 5px;
+        }
+      }
+
+    }
+
+    .assigned-users {
+      display: flex;
+      flex-wrap: wrap;
+
+      span {
+        cursor: pointer;
+        margin: 5px;
+        background: $brand-primary;
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+        border-radius: 25px;
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+
+        i {
+          font-size: 10px;
+          margin-left: 5px;
+        }
+      }
+    }
+
+    label {
+      color: $black-color;
+    }
+
+    button[type='submit'] {
+      background: #000C33;
+      width: 100%;
+    }
+
+    .button-goto-file {
+      width: 100%;
+      padding: 20px 30px;
+      background-color: #000C33;
+      text-transform: capitalize;
+
+      &:hover {
+        background-color: #FA5E0C;
+      }
+    }
+  }
+
+  .category_option_popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 378px;
+    height: 100vh;
+    overflow: auto;
+    z-index: 1200;
+    padding: 40px;
+    transition: all ease 0.5s;
+    background: #ffffff;
+    .blue_radio_btn {
+      .radio-box {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000C33;
+      }
+    }
+    .save_btn {
+       width: 323px;
+      height: 64px;
+    }
+  }
+
+  .directory_button_group {
+    .add_directory {
+      width: 112px;
+    }
+  }
+}
+
+.hidden_uploadfile_popup {
+  #actions {
+    .uploadfile_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+.hidden_insurance_popup {
+  #actions {
+    .insurance_policy_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+.hidden_category_popup {
+  #actions {
+    .category_option_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+.hidden_choose_utility_popup {
+  #actions {
+    .choose_utility_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+.hidden_utility_file_upload {
+  #actions {
+    .utility_upload_file_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+.hidden_ldi_provider_popup {
+  #actions {
+    .ldi_provider_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+.hidden_plot_management_popup {
+  #actions {
+    .plot_manage_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+.hidden_section_agreement_popup {
+  #actions {
+    .section_agreements_popup {
+      transform: translateX(378px);
+    }
+  }
+}
+@media (max-width: 786px) {
+  #actions {
+
+      #form-main {
+        .form-control {
+           max-width: 327px;
+        }
+      }
+
+    .choose_utility_popup {
+      #form-main {
+        padding-left: 25px;
+      }
+    }
+  }
+}

@@ -1,0 +1,416 @@
+.hiddden_contact_detail_popup {
+  #actions {
+    .contact_detail_popup {
+      transform: translateX(100%);
+    }
+  }
+}
+
+.hidden_costs_summary_popup {
+  #actions {
+    .summary_costs_popup {
+      transform: translateX(100%);
+    }
+  }
+}
+
+.hidden_initial_report_popup {
+  #actions {
+    .initial_report_popup {
+      transform: translateX(100%);
+    }
+  }
+}
+
+.hidden_valuation1_popup {
+  #actions {
+    .fund_valuation1_popup {
+      transform: translateX(100%);
+    }
+  }
+}
+
+.hidden_uploaddoc_popup {
+  #actions {
+    .upload_doc_popup {
+      transform: translateX(378px);
+    }
+
+  }
+}
+
+#actions {
+  .blue_radio_btn {
+    label {
+      width: 300px;
+    }
+    .checkmark {
+      background-color: white;
+      border: 3px solid #5200FF;
+
+    }
+    .radio-box {
+      display: flex;
+      /* justify-content: center; */
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-family: Karla;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 150%;
+      padding-top: 0px;
+      color: #FFFFFF;
+      align-items: center;
+      -webkit-user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        &:checked ~ .checkmark {
+          background-color: white;
+          border: 3px solid #5200FF;
+        }
+      }
+
+      .checkmark {
+        &:after {
+          background: #5200FF;
+        }
+
+      }
+    }
+  }
+  .black_radio_btn {
+    .checkmark {
+      background-color: white;
+      border: 3px solid #000C33;
+    }
+    .radio-box {
+      input {
+        &:checked ~ .checkmark {
+          background-color: white;
+          border: 3px solid #000C33;
+        }
+      }
+
+      .checkmark {
+        &:after {
+          background: #000C33;
+        }
+      }
+    }
+  }
+  .upload_doc_popup {
+    position: fixed;
+    height: 100vh;
+    width: 378px;
+    top: 0;
+    right: 0;
+    transition: all ease 0.05s;
+    z-index: 1200;
+    background: #FFFFFF;
+    overflow: auto;
+    padding: 20px;
+    h2 {
+      width: 300px;
+    }
+
+    .half-width {
+      width: 50%;
+    }
+
+    input, textarea {
+      max-width: 327px;
+    }
+
+    select {
+      max-width: 327px;
+      font-family: Karla;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000C33;
+      opacity: 1;
+      //appearance: auto;
+      padding: 0 10px;
+
+    }
+
+    span {
+      font-family: Karla;
+    }
+
+    .close-popup {
+      color: $black-color;
+    }
+
+    .popup-title {
+      font-size: 22px;
+      font-weight: bold;
+      color: $black-color;
+      margin-bottom: 40px;
+    }
+
+    .attachbtn_text {
+      position: static;
+      width: 115px;
+      height: 21px;
+      left: calc(50% - 115px / 2 + 8px);
+      top: calc(50% - 21px / 2);
+      font-family: Karla;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 150%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    .attachments {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+      font-weight: 400;
+
+      h5 {
+        font-weight: 500;
+      }
+
+      .attach-file {
+        color: #FA5E0C;
+        text-decoration: underline;
+        margin-bottom: 5px;
+      }
+
+      .attach-date {
+        color: $black-color;
+        margin-bottom: 5px;
+      }
+
+      .attach-delete {
+        color: $black-color;
+        text-decoration: underline;
+        margin-bottom: 5px;
+        border: none;
+        background-color: transparent;
+        width: fit-content;
+      }
+
+      button.upload-file {
+        width: 125px;
+        padding: 8px 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Karla;
+        background: #5200ff;
+        border-radius: 4px;
+        text-transform: none;
+
+        i {
+          margin-right: 5px;
+        }
+      }
+
+    }
+
+    .assigned-users {
+      display: flex;
+      flex-wrap: wrap;
+
+      span {
+        cursor: pointer;
+        margin: 5px;
+        background: $brand-primary;
+        padding: 5px 10px;
+        display: flex;
+        align-items: center;
+        border-radius: 25px;
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+
+        i {
+          font-size: 10px;
+          margin-left: 5px;
+        }
+      }
+    }
+
+    label {
+      color: $black-color;
+    }
+
+    button[type='submit'] {
+      background: #000C33;
+      width: 100%;
+    }
+
+    .button-goto-file {
+      width: 100%;
+      padding: 20px 30px;
+      background-color: #000C33;
+      text-transform: capitalize;
+
+      &:hover {
+        background-color: #FA5E0C;
+      }
+    }
+    .save_btn {
+      width: 327px;
+      height: 64px;
+    }
+  }
+  .upload_doc_popup ::placeholder {
+    color: #000c33;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .white_head {
+    th {
+      color: white;
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+  }
+
+  th {
+    font-family: 'Karla';
+    color: #000C33;
+    font-size: 16px;
+    font-weight: 700;
+    font-weight: bold;
+  }
+
+  tr {
+    height: 64px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding-left: 20px;
+    //margin-left: 20px;
+  }
+
+  .summary_costs_popup {
+    .summary_table {
+      width: 1100px;
+      height: 262px;
+      font-family: Karla;
+      font-style: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #FFFFFF;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      margin-top: auto;
+      margin-bottom: auto;
+      padding-left: 22px;
+      padding-right: 22px;
+
+      td, th {
+        color: white;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+    }
+  }
+
+  .contact_detail_popup, .fund_valuation1_popup, .summary_costs_popup, .initial_report_popup {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    transition: all ease 0.5s;
+    z-index: 1200;
+    background: #000C33;
+    overflow: auto;
+    //padding-top: 60px;
+    //padding-left: 142px;
+    .custom_padding {
+      padding-top: 60px;
+      padding-left: 142px;
+    }
+
+    .add_directory {
+      width: 112px;
+    }
+  }
+
+  .row_direction {
+    display: flex;
+    margin-top: 17px;
+  }
+
+  #bankfund_mornitor, #actions_required {
+    .add_directory {
+      width: 146px;
+    }
+
+  }
+}
+@media (max-width: 767px) {
+  #actions{
+    .black_radio_btn {
+      .checkmark {
+        background-color: white;
+        border: 3px solid #000C33;
+      }
+      .radio-box {
+        input {
+           &:checked ~ .checkmark {
+            background-color: white;
+            border: 3px solid #000C33;
+          }
+        }
+
+        .checkmark {
+          &:after {
+            background: #000C33;
+          }
+        }
+      }
+    }
+    .upload_doc_popup {
+      padding-left: 30px;
+    }
+    .contact_detail_popup, .summary_costs_popup, .initial_report_popup {
+      .custom_padding {
+        padding-top: 15px;
+        padding-left: 7px;
+        padding-right: 20px;
+      }
+    }
+    .summary_costs_popup, .initial_report_popup, .fund_valuation1_popup {
+      .row {
+        margin-right: 0px;
+      }
+      .table-responsive {
+        width: 330px;
+      }
+    }
+    .fund_valuation1_popup {
+      .custom_padding {
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+    #form-main {
+      .form-control {
+        max-width: 300px;
+      }
+    }
+  }
+
+}
